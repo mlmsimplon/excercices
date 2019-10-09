@@ -1,0 +1,27 @@
+
+header {
+    background-color: #3498DB;
+    height: 200px;
+}
+nav {
+    height: 100px;
+    background-color: #2874A6;
+}
+section{
+    height: 600px;  
+    background-color: #5DADE2;
+}
+aside {
+    float: right;
+    width: 300px;
+height: 600px;
+background-color: #154360 ;
+   
+}
+
+footer {
+
+    height: 90px;
+    background-color: darkblue;
+}
+    

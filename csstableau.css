@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+}
+
+/*
+tbody {
+    border: border: 2px, solid, blue;
+    text-align: inherit;
+    font-style: italic;
+}*/
+
+#table1 {
+    width: auto;
+    height: auto;
+    background-color: grey;
+    border: 1px solid grey;
+    text-align: center;
+    margin: 5;
+}
+.nested td {
+    border: 1px solid white;
+    text-align: center;
+    margin: 5;
+}
+#table2 {
+   
+    
+    text-align: center;
+    
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+.homer {
+  display:block;
+   box-shadow:50px 80px 100px bisque inset;
+   width:500px;
+   height:500px;  
+   position:absolute;
+   left: 30%;
+   right: 0%;
+   z-index: inherit 100;
+    width: 500px; /* largeur de l'image */
+    height: 500px; /* hauteur de l'image */
+    border-radius: 10px;
+    transition: .3s !important;
+  }
+  .homer div:hover img:hover {
+    box-shadow:50px 80px 100px bisque inset;
+   width:500px;
+   height:500px;
+   position:relative;
+    width: 500; /* on affiche l'image au carré */
+    height: 500px;
+    border-radius: 50%; 
+  }
+ .homer div img {
+   display: block;
+   width: 500px;
+   height: 500px;
+   border-radius: 10px;
+   transition: .3s;
+  
+ }
+ 

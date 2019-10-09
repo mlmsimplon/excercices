@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+h1 {
+color: white;
+text-align: center;
+padding-bottom: 20px;
+
+}
+
+
+div {
+    display: block;
+}
+
+
+p {
+    font-weight: 900;
+    text-align: center;
+}
+.b1 {
+background-color: grey;
+width: 400px;
+height: 300px;
+position: absolute;
+margin-left: 10%;
+
+}
+.b2 {
+    background-color: blue;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+margin-left: 50%;
+}

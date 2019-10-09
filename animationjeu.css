@@ -1,0 +1,127 @@
+body {
+   background-image: url(file:///var/www/html/images/fondsonic2.png);
+}
+.sonic img {
+ width: 100px;
+ height: 100px;
+}
+.sonic2 img {
+    width: 100px;
+    height: 100px;
+   }
+
+.sonic {
+    position: absolute;
+    animation : animationsonic 2s infinite; 
+    bottom: 38%;
+
+}
+.sonic2 {
+    position: absolute;
+   
+    animation : animationsonic2 2s infinite; 
+}
+
+
+.tails img {
+    width: 100px;
+    height: 100px;
+}
+
+.tails {
+    position: absolute;
+    animation: animationtails 5s infinite;
+    bottom: 80%;
+}
+
+
+.trappe {
+    width: 100px;
+height: 10px;
+background-color: red;
+position: absolute;
+bottom: 38%; 
+left: 55%;
+animation: trappe 2s infinite;
+transform-origin: 0% 0%;
+
+} 
+.trappe2 {
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    bottom: 38%; 
+    left: 61%;
+    animation: trappe2 2s infinite;
+    transform-origin: 100% 100%;
+}
+
+
+@keyframes animationsonic {
+    0% { 
+       left: 0%;
+    }
+       
+    100% {
+        left: 100%; 
+    }
+}
+
+
+@keyframes animationsonic2 {
+    0% {
+        bottom: 38%; 
+        left: -30%;
+    }
+        
+    60% {
+        bottom: 38%; 
+        left: 60%;
+       } 
+
+    100% {
+        bottom: 0; 
+        left: 60%;
+    }
+
+}
+
+@keyframes trappe {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(0deg)}
+    35% {transform: rotate(0deg)}
+    50% {transform: rotate(0deg)}
+   59% {transform: rotate(60deg)}
+   100% {transform: rotate(90deg)}
+}
+
+@keyframes trappe2 {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(0deg)}
+    35% {transform: rotate(0deg)}
+    50% {transform: rotate(0deg)}
+   59% {transform: rotate(-60deg)}
+   100% {transform: rotate(-90deg)}
+}
+
+@keyframes animationtails {
+    0% {
+        bottom: 80%; 
+        left: 0%;
+    }
+        
+    30% {
+        bottom: 60%; 
+        left: 50%;
+       } 
+
+    50% {
+        bottom: 80%; 
+        left: 100%;
+    }
+100% {
+    bottom: 100%;
+    left:100%;
+}
+}

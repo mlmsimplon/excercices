@@ -1,0 +1,96 @@
+body {
+    background-color: beige;
+}
+
+.bandeau {
+    padding: 8px;  
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.bandeau p {
+    
+    color: white;
+    text-align: right;
+    margin-right: 4px;
+
+}
+
+.titre {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.paragraphe1 {
+    
+         align-items: center; 
+        border: 2px solid grey;
+        margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+        width: auto;
+        height:  auto;
+        float: right;
+        text-align: justify;
+        padding: 20px; 
+}
+
+.paragraphe1 h2 {
+text-align: center;
+}
+
+.paragraphe2 h2 {
+    text-align: center;
+    }
+.paragraphe2 {
+       
+    border: 2px solid grey;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+.paragraphe2 p {
+  
+padding-top: 10px;  
+    width: 300px;
+    height: auto;
+    float: left;
+}
+.paragraphe2  img {
+float: left;
+width: 150px;
+margin-left: 5px;
+}
+.paragraphe3 {
+      
+    border: 2px solid grey;
+    margin-left: 5px;
+margin-bottom: 10px;
+margin-top: 10px;
+    width: auto;
+    height:  auto;
+    float: left;
+}
+
+.paragraphe1 h2 {
+    text-align: center;
+    }
+    
+.paragraphe3 p {
+padding: 10px;  
+    width: 300px;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+.paragraphe3 img {
+    float: left;
+    margin: 1px;
+    width: 150px;
+    margin-left: 5px;
+    
+}

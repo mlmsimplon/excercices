@@ -1,0 +1,78 @@
+body {
+background-color: beige;
+}
+
+nav {
+    
+    text-align: center;
+}
+
+
+a {
+    display: inline-block;
+    padding: 3px;
+    font-size: 18pt;
+    color: red;
+   font-weight: bolder;
+   text-decoration: underline;
+cursor: pointer;
+    }
+
+    a:hover {
+    background: none;
+    color: brown;
+    }
+
+    a span {
+    display: none;
+    }
+
+    a:hover span {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+text-align: center;
+    color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.conteneur{
+    display: inline-block;
+    padding: 3px;
+    font-size: 18pt;
+    color: red;
+   font-weight: bolder;
+   text-decoration: underline;
+cursor: pointer;
+  
+  }
+
+  .conteneur:hover {
+    display:inline-block;
+    content: "NU PHI RAU";
+    color: brown;
+    font-weight: bolder;
+    opacity:1;
+    
+  }
+
+
+  /**
+  .content {
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+    opacity: 0;
+}
+

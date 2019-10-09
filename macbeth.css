@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+.entete h1, .entete h2{
+    color: white;
+}
+section {
+ 
+    border: 1px solid white;
+    background-color: white;
+    column-count: 2;
+    width: auto;
+    height: 900px;
+
+}
+
+ .conteneur1  {
+     display: block;
+     width: 100%;
+     height: auto;
+text-align: left;
+}
+
+span {
+    font-weight: bolder;
+}
+
+p {
+    text-align: left;
+    padding-left: 1cm;
+}
+scroll-container {
+    display: block;
+    height: 900px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
